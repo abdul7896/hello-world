@@ -7,6 +7,6 @@ public class HelloWorldTest {
     public void testPrintHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
         String actual = helloWorld.getMessage();
-        assertEquals("Hello World!", output);
+        assertEquals("Hello World!", actual);
     }
 }
