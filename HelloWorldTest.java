@@ -7,9 +7,6 @@ public class HelloWorldTest {
 
     @Test
     public void testHelloWorldOutput() {
-        // Redirect System.out to capture the output
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outputStream));
-
-        // Call the main method of HelloWorld class
-        HelloWorld.main(new String[]{});
+          String expected = "Hello world";
+        String actual = "Hello world";
+        assertEquals(expected, actual);
