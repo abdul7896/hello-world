@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class HelloWorldTest {
+public class HelloWorldTest implements HelloWorld{
 
     @Test
     public void testPrintHelloWorld() {
